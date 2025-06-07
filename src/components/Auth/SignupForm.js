@@ -67,8 +67,7 @@ const SignupForm = ({ onSwitchToLogin, onBack }) => {
       user: {
         first_name: firstName,
         last_name: lastName,
-        birth_date: birthDate, // formato YYYY-MM-DD esperado
-        subscription_plan_id: "d4947344-644c-4ab7-8f7a-38180b37d1f0", // o cambia si es variable
+        birth_date: birthDate
       },
       auth: {
         email,
